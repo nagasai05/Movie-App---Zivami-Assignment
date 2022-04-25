@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Gist</title>
+</head>
+
+<body>
+
+    <!-- Page header -->
+    <header class="header-container">
+        <p class="title" id="homePage">MOVIE <span class="sub-title">GIST.</span></p>
+        <form id="form">
+            <input type="text" placeholder="Search" id="search" class="search">
+        </form>
+    </header>
+
+    <!-- Filter Container -->
+    <div class="filter-container" id="filterContainer">
+        <p class="filter popularity-filter" id="popularityFilter">Popularity</p>
+        <p class="filter genre-filter" id="genreFilter">Genres</p>
+    </div>
+
+    <!-- Genre Tags -->
+    <div id="tags" class="tags-list"></div>
+
+    <!-- Main Container -->
+    <main id="main" class="main"></main>
+
+    <!--  pagination -->
+    <div class="pagination">
+        <div class="page" id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+    </div>
+
+    <script href="script.js"></script>
+</body>
+
+</html>
